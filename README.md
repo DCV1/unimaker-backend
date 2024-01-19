@@ -21,7 +21,7 @@ unimaker backend 코드입니다.
 
 ### xformers
 - xformer를 설치하면 이미지 생성을 더 빨리 할 수 있습니다.
-- xformer를 설치하는 방법은 간단하다. webui.sh를 실행할 때 —xformers를 추가하면 간단하게 설치가 됩니다.
+- xformer를 설치하는 방법은 간단하다. webui.sh를 실행할 때 "—xformers"를 추가하면 간단하게 설치가 됩니다.
 ``` bash
 bash webui.sh --xformers
 ```
@@ -31,9 +31,15 @@ deforum에는 이 밖에 다양한 argument를 넣을 수 있는데, arguments�
 
 절차를 따라서 설치를 완료하면 다음과 같은 화면을 볼 수 있습니다.
 ![deforum-webui](assets/md/deforum-webui.png)
+하단에 보면 controlnet을 설치하라는 문구를 볼 수 있는데, 이것도 해당 글씨를 눌러서 설치해주면 됩니다.
 
+## 실행하기
 
+deforum api를 실행시키고 싶을 때는 webui를 킬 때 다음과 같이 입력하면 됩니다.
+``` bash
+bash webui.sh --deforum-api --xformers
+```
 
 ## 코드 출처
 [deforum-webui](https://github.com/deforum-art/sd-webui-deforum)
-하단에 보면 controlnet을 설치하라는 문구를 볼 수 있는데, 이것도 해당 글씨를 눌러서 설치해주면 됩니다.
+

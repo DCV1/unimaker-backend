@@ -6,9 +6,7 @@ unimaker backend 코드입니다.
 이 코드는 unimaker의 backend api 구현을 위해서 deforum 코드에서 api 부분만 수정한 코드입니다.
 
 ## 시작하기
-1. 먼저, A1111의 stable diffusion webui를 설치합니다.
-
-[stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+1. 먼저, [A1111의 stable diffusion webui]()를 설치합니다.
 
 2. 이 코드를 stable-diffusion-webui의 extension에 설치합니다. 두 가지 방법이 있습니다:
 
@@ -26,8 +24,8 @@ unimaker backend 코드입니다.
 bash webui.sh --xformers
 ```
 
-deforum에는 이 밖에 다양한 argument를 넣을 수 있는데, arguments에 대한 정보는 다음 링크에서 볼 수 있습니다.
-[deforum-arguments](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Command-Line-Arguments-and-Settings)
+deforum에는 이 밖에 다양한 argument를 넣을 수 있습니다. arguments에 대한 정보는 [링크](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Command-Line-Arguments-and-Settings)에서 볼 수 있습니다.
+
 
 절차를 따라서 설치를 완료하면 다음과 같은 화면을 볼 수 있습니다.
 ![deforum-webui](assets/md/deforum-webui.png)
